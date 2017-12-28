@@ -5,6 +5,9 @@
 
 set -e
 
+autoreconf -fi
+exit 0
+
 aclocal
 autoheader
 automake --gnu --add-missing --copy
